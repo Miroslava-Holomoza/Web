@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.logo-icon{
+    font-size: 20px;
+    background: linear-gradient(#BC4AF1, #E93EAE);
+    padding: 10px;
+    border-radius: 50%;
+}
+header a{
+    color: #0f0f0f;
+}
+.logo-tittle{
+    font-weight: 500;
+}
+nav ul{
+    display: flex;
+    column-gap: 30px;
+}
+nav ul li a:hover{
+    color: #b633db;
+    font-weight: 500;
+}
+.header-top-button{
+    display: flex;
+    column-gap: 15px;
+}
+.header-top-button button{
+    border: none;
+    padding: 10px;
+    background: none;
+    border-radius: 20%;
+}
+.header-top-button button:hover{
+    background: #eaeaea;
+}
+.header-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 130px 0;
+    color: #ffffff;
+    background: linear-gradient(165deg, #9912FA, #F63499, #FF8815);
+    row-gap: 20px;
+}
+.header-bottom h1{
+    font-size: 60px;
+    font-weight: 550;
+    width: 770px;
+    line-height: 60px;
+    text-align: center;
+}
+.header-bottom p{
+    font-size: 20px;
+    width: 770px;
+    text-align: center;
+    font-weight: 400;
+}
+.header-bottom-btn button{
+    border: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: rgb(186, 74, 244);
+    font-weight: 500;
+}
+#btn-hover:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: #0f0f0f;
+}
+.advantages{
+    display: flex;
+    justify-content: center;
+    padding: 65px 0;
+}
+.advantages article svg{
+    background: #f4e8ff;
+    padding: 30px;
+    border-radius: 50%;
+    color: #9810FA;
+}
+.preference-card h3{
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.preference-card p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.products{
+    padding: 64px 0;
+    display: flex;
+    align-items: center;
+}
+.products h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.products > p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.product-cards{
+    display: flex;
+    column-gap: 20px;
+}
+.product-items img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.product-items{
+    border: 1px solid #c8c3c3;
+    border-radius: 20px;
+    max-width: 350px;
+}
+.product-inf{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+.type{
+    font-size: 12px;
+    color: #9810FA;
+    text-transform: uppercase;
+}
+.product-inf h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.product-inf p{
+    font-size: 14px;
+    color: #c8c3c3;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost{
+    font-size: 20px;
+    color: #9810FA;
+}
+.advantages{
+    font-size: 12px;
+    color: #20755c;
+}
+.product-inf button{
+    border: none;
+    color: white;
+    background: #9810FA;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.product-items:hover{
+    box-shadow: 0 10px 50px #7a7979;
+}
+.show-all-products{
+    padding: 10px 25px;
+}
+.show-all-products:hover{
+    background: #9810FA;
+}
+.send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+    background: #9810FA;
+    color: #ffffff;
+    row-gap: 30px;
+}
+.send h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.send p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.send button{
+    border: none;
+    background: white;
+    color: #9810FA;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: #292828;
+    color: #ffffff;
+    padding: 64px 0
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+.column{
+    max-width: 400px;
+}

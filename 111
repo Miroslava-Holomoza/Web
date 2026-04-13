@@ -316,3 +316,83 @@
       justify-content: space-between;
       align-items: end;
       gap:
+
+
+</head>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>арабіка</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="blob"></div>
+
+        <div class="floating-card card-top">
+          <small>Популярний вибір</small>
+          <strong>Капучино</strong>
+        </div>
+
+        <div class="cup-card">
+          <div class="plate"></div>
+          <div class="cup">
+            <div class="coffee"></div>
+            <div class="foam"></div>
+            <div class="handle"></div>
+          </div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <small>Ціна від</small>
+          <strong>95 ₴</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container" id="about">
+      <div class="section-head">
+        <div>
+          <h2>Чому обирають саме нас</h2>
+          <p>
+            Поєднання естетики, затишку та смаку. Ці картки можна замінити на блоки з твого дизайну,
+            якщо ти скинеш скрін або сам макет у вигляді зображення.
+          </p>
+        </div>
+      </div>
+
+      <div class="cards">
+        <article class="feature-card">
+          <div class="icon">🌿</div>
+          <h3>Якісні зерна</h3>
+          <p>Використовуємо перевірені сорти кави з насиченим ароматом і м’яким післясмаком.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">✨</div>
+          <h3>Сучасний стиль</h3>
+          <p>Світлий дизайн, округлі форми й тепла палітра створюють відчуття комфорту з першого погляду.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">🚚</div>
+          <h3>Швидке замовлення</h3>
+          <p>Зручна структура сторінки дозволяє швидко перейти до меню, оформити замовлення або зв’язатися з нами.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container" id="contacts">
+    <div class="footer-box">
+      <div>
+        <h3>Кава, яка створює настрій</h3>
+        <p>Легка HTML/CSS-версія головної сторінки. Її можна доробити до повної копії макета.</p>
+      </div>
+      <button class="btn">Зв’язатися</button>
+    </div>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.logo-img{
+    background: linear-gradient(rgb(173, 84, 220), rgb(224, 67, 170));
+    padding:35px;
+    border-radius:50%;
+}
+.logo-text{
+    display: flex;
+    font-size:20px;
+    font-weight:500;
+}

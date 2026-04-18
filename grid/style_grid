@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+body {
+    background: #e7eefe;
+    color: #101727;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #d9dbe8;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 16px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.logo span {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 32px;
+    color: #4f39f6;
+    font-weight: 700;
+}
+
+nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav ul li a {
+    color: #4f39f6;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #2205f8;
+}
+
+.header-btn {
+    justify-self: end;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #4f39f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.header-btn:hover {
+    background: #2205f8;
+}
+
+.hero {
+    padding: 54px 0;
+    text-align: center;
+}
+
+.hero-grid {
+    display: grid;
+    justify-items: center;
+    row-gap: 15px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #5e656f;
+    max-width: 600px;
+}
+
+.hero-btn {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: grid;
+    place-items: center;
+    padding: 12px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #2205f8;
+    background: #2205f8;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background: #1604cc;
+}
+
+.btn-primary {
+    background: #2205f8;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    color: #2205f8;
+    border: 2px solid #2205f8;
+}
+
+.btn-secondary:hover {
+    background: #f0f2ff;
+}
+
+.specialties-section {
+    padding: 64px 0;
+}
+
+.specialties-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.specialty-item {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.specialty-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+}
+
+.specialty-icon {
+    font-size: 48px;
+    line-height: 48px;
+    justify-self: start;
+}
+
+.specialty-item h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #101727;
+}
+
+.specialty-item p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #5e656f;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.33);
+}
+
+.specialty-item h3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e656f;
+    font-weight: 600;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tags span {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    background: #e2e6ff;
+    color: #4a3894;
+    border-radius: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.footer {
+    background: #101727;
+    color: #fff;
+    padding: 40px 24px;
+}
+
+.footer-container {
+    display: grid;
+    row-gap: 30px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    align-content: start;
+}
+
+.footer-column {
+    display: grid;
+    grid-row-gap: 12px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4f39f6;
+}
+
+.footer-logo span {
+    font-size: 24px;
+    margin-right: 6px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #a0a9b8;
+    max-width: 240px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #a0a9b8;
+}
+
+.footer-column ul {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 8px;
+}
+
+.footer-column ul li a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #a0a9b8;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #4f39f6;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.social a {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
+
+.subscribe-label {
+    font-size: 13px !important;
+    line-height: 20px;
+    color: #a0a9b8;
+    margin-top: 12px;
+}
+
+.subscribe-form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.subscribe-form input {
+    padding: 8px 12px;
+    border: 1px solid #5e656f;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.subscribe-form input::placeholder {
+    color: #a0a9b8;
+}
+
+.subscribe-form button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4f39f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background: #2205f8;
+}
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 20px;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #a0a9b8;
+}

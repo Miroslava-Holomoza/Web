@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-block">
+        <h1 class="logo">CoffeeStyle</h1>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="cart">Cart</div>
+    </div>
+</header>
+
+<section class="hero">
+    <p class="top-text">Best place to buy design</p>
+    <h2 class="title">Coffee Mugs</h2>
+    <p class="desc">
+        The most versatile system ever created. Designed to fit your life.
+    </p>
+    <button class="btn">Explore products</button>
+</section>
+
+<section class="story">
+    <h2 class="story-title">
+        Even the all-powerful Pointing has no control about the blind texts
+    </h2>
+    <p class="story-text">
+        It is a paradisematic country, in which roasted parts fly into your mouth.
+    </p>
+    <a href="#" class="story-link">Read more</a>
+</section>
+
+<section class="products">
+    <h3 class="section-title">Featured mugs</h3>
+
+    <div class="product-list">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcf93a" alt="">
+            <h4>Pink Cup</h4>
+            <p>$99</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="">
+            <h4>Golden Mug</h4>
+            <p>$50</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="">
+            <h4>Red Cup</h4>
+            <p>$25</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="">
+            <h4>Black Cup</h4>
+            <p>$15</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096" alt="">
+            <h4>Essentials Mug</h4>
+            <p>$19</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c" alt="">
+            <h4>Winter Mug</h4>
+            <p>$25</p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-block">
+
+        <div>
+            <h3>CoffeeStyle</h3>
+            <p>Best coffee since 1996</p>
+        </div>
+
+        <div>
+            <h4>Menu</h4>
+            <p>Home</p>
+            <p>Products</p>
+            <p>Contact</p>
+        </div>
+
+        <div>
+            <h4>Contacts</h4>
+            <p>us@coffee.com</p>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

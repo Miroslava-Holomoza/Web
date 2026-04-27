@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    background: #0F172B;
+    color: #F5F7Ff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    height: 130px;
+    padding: 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020615;
+}
+.logo{
+    font-size: 38px;
+    font-weight: 800;
+    color: #fff;
+}
+.logo span{
+    color: #298fff;
+}
+.main{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    color: #7f879a;
+    font-size: 34px;
+    font-weight: bold;
+}
+.career-card{
+    border: 2px solid ;
+
+}

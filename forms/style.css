@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #cccccc;
+}
+header{
+    width:900px;
+    margin: 40px auto 30px;
+    text-align: center;
+}
+h1{
+    font-size: 46px;
+    margin-bottom: 10px;
+    color: #2a56f8;
+}
+h4{
+    font-size: 24px;
+    color: #4a5565;
+    margin: 10px 0;
+}
+header p{
+    font-size: 16px;
+    color: #4a5565;
+}
+main{
+    width: 900px;
+    margin: auto;
+}
+.job-form{
+    background: white;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.12);
+}
+.personal-section{
+    background: #ecf0fd;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #dbeafe;
+}
+.prof-section{
+    background: #f0f1fd;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #dbeafe;
+}
+.more-section{
+    background: #f9f2fa;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #dbeafe;
+}
+h2{
+    font-size: 30px;
+    color: #2563eb;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.section{
+    background: #f7f8f9;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #dbeafe;
+}
+label{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin:18px 0 8px;
+    color: #334155;
+}
+input, select,textarea{
+    width: 100%;
+    padding: 18px 22px;
+    border-radius: 14px;
+    border: 2px solid #dbeafe;
+    background: #f7f8f9;
+    color: #1f2937;
+    outline: none;
+    border-left: 6px solid #2563eb;
+}
+input:hover, textarea:hover, select:hover{
+    box-shadow: 0 0 12px rgba(37, 99, 235, 0.25);
+}
+button{
+    width: 100%;
+    padding: 22px;
+    border: none;
+    border-radius: 18px;
+    background: #1d4ed8;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s
+}
+button:hover{
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+    transform: translateY(2px);
+}
+footer{
+    width: 900px;
+    margin: 35px auto 50px
+}
+.footer-section{
+    background:white;
+    padding:30px;
+    border-radius: 20px;
+    border: 1px solid #bfdbfe;
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.12);
+}
